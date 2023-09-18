@@ -1,4 +1,4 @@
-# Welcome to my personal webiste
+# Welcome to my personal website
 
 
-[Webiste here](agrechka.github.io})
+[Webiste here](agrechka.github.io)
