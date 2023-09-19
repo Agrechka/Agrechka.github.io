@@ -332,6 +332,12 @@ li span a:hover {
     /* background: black; */
 }
 
+.nav-desk a:hover {
+    /* Your style changes here */
+    color: rgb(18, 132, 143); /* Change text color to red */
+    font-weight: bold; /* Make the text bold on hover */
+  }
+
 .nav-logo {
     height: 100%;
     float: left;
