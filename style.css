@@ -680,7 +680,7 @@ li {
 }
 
 li span {
-    position: relative;
+    /*position: relative;  << changed this*/
     /* display: block; */
     cursor: pointer;
 }
