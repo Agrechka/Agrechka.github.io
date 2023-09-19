@@ -332,7 +332,7 @@ li span a:hover {
     /* background: black; */
 }
 
-.nav-items a:hover {
+.nav-items-personal a:hover {
     /* Your style changes here */
     color: rgb(161, 16, 127); /* Change text color to red */
     font-weight: bold; /* Make the text bold on hover */
