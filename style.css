@@ -919,3 +919,10 @@ li span:hover:after {
     background: #555;
 
 }
+
+
+.menu a:hover {
+    /* Your style changes here */
+    color: rgb(18, 132, 143); /* Change text color to red */
+    font-weight: bold; /* Make the text bold on hover */
+  }
