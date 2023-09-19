@@ -150,7 +150,7 @@
 .publi-in{
     font-style:italic;
     flex: 1;
-    align-items: center
+    align-items: left
 }
 
 
@@ -519,7 +519,7 @@ li span a:hover {
 }
 
 .input-container {
-    padding: 10px 0px;
+    padding: 0px 0px;
 }
 
 .form-group {
