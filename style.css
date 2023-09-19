@@ -339,12 +339,12 @@ li span a:hover {
     text-decoration: none !important;
   }
 
-  .currentpage {
+.currentpage {
     /* Your style changes here */
     color: rgb(161, 16, 127); /* Change text color to red */
     font-weight: bold; /* Make the text bold on hover */
     text-decoration: none !important;
-  }
+}
 
 .nav-logo {
     height: 100%;
