@@ -40,6 +40,7 @@
                         <li><span><a href="teaching.html">Teaching</a></span></li>
                         <li><span><a href="climbing.html">Athletics</a></span></li>
                         <li><span><a href="uses.html">Talks</a></span></li>
+                        <li><span><a href="media.html">In the Media</a></span></li>
                         <li><span><a href="contact.html">Contact</a></span></li>
                     </ul>
                 </div>
@@ -75,14 +76,6 @@
         </div>
     </div>
 
-    <nav>
-        <ul>
-            <li><a href="#" onclick="loadSection('work.html')">Section 1</a></li>
-            <li><a href="#" onclick="loadSection('climbing.html')">Section 2</a></li>
-            <!-- Add more navigation links as needed -->
-        </ul>
-    </nav>
-
 
     <div class="menu-wrap">
         <input type="checkbox" class="toggler">
@@ -103,22 +96,6 @@
             </div>
         </div>
     </div>
-
-    <div id="section-container">
-        <!-- Initially empty, content will be loaded here -->
-        first section!!
-    </div>
-
-    <script>
-        function loadSection(sectionUrl) {
-            fetch(sectionUrl)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('section-container').innerHTML = data;
-                });
-        }
-    </script>
-
 
 </body>
 
