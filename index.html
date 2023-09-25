@@ -104,15 +104,20 @@
         </div>
     </div>
 
-<script>
-    function loadSection(sectionUrl) {
-        fetch(sectionUrl)
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('section-container').innerHTML = data;
-            });
-    }
-</script>
+    <div id="section-container">
+        <!-- Initially empty, content will be loaded here -->
+        first section!!
+    </div>
+
+    <script>
+        function loadSection(sectionUrl) {
+            fetch(sectionUrl)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('section-container').innerHTML = data;
+                });
+        }
+    </script>
 
 
 </body>
